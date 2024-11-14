@@ -1,0 +1,128 @@
+:root{
+    --background-color: #85FFBD;
+    --bs-gradient: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+}
+
+
+.sfondo_sito
+{
+
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    background-image: linear-gradient(to top, #85FFBD 0%, #FFFB7D 100%);
+
+}
+
+
+.card
+{
+    height: auto;
+    width: 100%;
+    margin: 1px;
+
+}
+
+
+.sfondo_nav
+{
+
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    
+}
+
+
+.pulsantinav {
+    color: black;  
+    border: 3px black;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px 2px black;         
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+  
+}
+
+/* non utilizzato */
+
+.pulsantinav:visited, .pulsantinav:hover , .pulsantinav:active , .pulsantinav:link{
+    color: black;     
+    text-decoration: none; 
+    border: 3px black;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.bordo_pulsanti{
+    border: 3px black;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px 2px black;
+
+}
+.bordo_logo{
+    border: 2px solid black;
+}
+
+
+.card
+{
+    width: 18rem;
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #6ceef0 0%, #e781e9 100%);
+}
+
+.sfondo_footer_testo
+{
+
+    background-color: #3EECAC;
+    background-image: linear-gradient(19deg, #3EECAC 0%, #EE74E1 100%);
+
+    
+}
+
+
+.sfondo_footer_testo_alto
+{
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+    
+    
+}
+
+.sfondo_footer_testo_basso
+{
+background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+
+
+.altezzacar
+{
+    height: 50vh;
+}
+
+
+.sfondoc
+{
+    background: linear-gradient(to left, white, #C3FF93, white);
+
+}
+
+
+.accordion-collapse 
+{
+
+    background-color: #b5a776;
+}
+
+.accordion-button:not(.accordion-collapse)
+{
+    background-color: #ca4b10
+
+}
+
+.accordion-button:not(.collapsed)
+{
+
+    background-color: #1ee149 !important
+}
+
