@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>presto</title>
+  <!-- FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Hachi+Maru+Pop&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <!-- BOOTSTRAP CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <!-- BOOTSTRAP ICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <!-- CSS -->
+  <link id="stilizzato" rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body class="classebody">
+  <!-- Pulsante DarkMode -->
+  <button class="pulsanteDM pulsanti fs-3" id="idpulsanteDM">
+    <i class="bi bi-moon"></i>
+    <!-- <i class="bi bi-moon-fill"></i>  pulsante DM attiva -->
+  </button>
+  <!-- Pulsante DarkMode -->
+  <!-- NAVBAR INIZIO -->
+  <nav data-aos="fade-down" id="barra" class="navbar navbar-expand-lg p-0 sticky-top">
+    <div class="container-fluid sfondonav">
+      <a class="navbar-brand" href="./index.html">
+        <img src="../../media/img/logo.png" alt="Descrizione immagine" loading="lazy" class="bordo dimimmag" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item m-auto px-4">
+            <a class="nav-link opaco arrotondato m-2 p-2 m-lg-0 p-lg-2 fs-4" href="./prodotti.html"><i
+                class="bi bi-bag-fill"></i> Prodotti
+            </a>
+          </li>
+          <li class="nav-item m-auto px-4">
+            <a class="nav-link opaco arrotondato m-2 p-2 m-lg-0 p-lg-2 fs-4" href="#!"><i
+                class="bi bi-arrow-through-heart"></i> I più richiesti
+            </a>
+          </li>
+          <li class="nav-item dropdown m-auto px-4">
+            <a class="nav-link dropdown-toggle opaco arrotondato m-2 p-2 m-lg-0 p-lg-2 fs-4" href="#!" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-bar-chart-steps"></i> Categorie
+            </a>
+            <ul class="dropdown-menu sfondosubmenu">
+              <li class="fs-5">
+                <a class="dropdown-item" href="#!"><i class="bi bi-sun-fill"></i> Nuove proposte</a>
+              </li>
+              <li class="fs-5">
+                <a class="dropdown-item" href="#!"><i class="bi bi-substack"></i> I grandi classici</a>
+              </li>
+              <li class="fs-5">
+                <a class="dropdown-item" href="#!"><i class="bi bi-database-fill"></i> Top
+                  <i class="bi bi-3-square"></i></a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li class="text-center fs-5">
+                Aspetti sito
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li class="fs-5">
+                <a id="sblu" class="dropdown-item" href="#!">Stile Blu
+                </a>
+              </li>
+              <li class="fs-5">
+                <a id="sbianco" class="dropdown-item" href="#!">Stile Bianco
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex mb-1" role="search">
+          <input class="form-control sfondofooter me-2 fs-4" type="search" placeholder="Cerca" aria-label="Cerca" />
+          <button class="btn pulsanti" type="submit">
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- NAVBAR FINE -->
+
+  <!-- inizio Header -->
+  <header>
+    <div class="container mt-2 mt-lg-3 riquadroimmagini">
+      <div class="row align-items-center justify-content-center headertesto">
+        <div data-aos="zoom-in-up" class="d-flex flex-column align-items-center justify-content-center col-12 col-lg-6">
+          <img src="https://picsum.photos/500" alt="Descrizione immagine" loading="lazy" class="riquadroimmagini" />
+          <p class="text-center p-2 fs-1 arrotondato m-1 schiarito" data-aos="flip-left">
+            I Nostri migliori prodotti!
+          </p>
+        </div>
+        <div data-aos="zoom-in-left"
+          class="d-flex flex-column align-items-center justify-content-center col-12 col-lg-5">
+          <img src="https://picsum.photos/401" alt="Descrizione immagine" loading="lazy" class="riquadroimmagini m-1" />
+          <img src="https://picsum.photos/402" alt="Descrizione immagine" loading="lazy" class="riquadroimmagini m-1" />
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- fine Header -->
+
+  <!-- inizio pulsanti -->
+  <div class="container mt-2">
+    <div class="row m-1">
+      <div class="col-12 sfondosubmenu m-1">
+        <h2 data-aos="flip-left" class="text-center titolo">Categorie</h2>
+      </div>
+      <div data-aos="flip-left" class="col-12 col-lg-3 mt-1">
+        <a href="#!" class="text-center d-flex flex-column card card1">
+          <img src="https://picsum.photos/230" />
+          <p class="m-1">I più venduti</p>
+        </a>
+      </div>
+
+      <div data-aos="flip-left" class="col-12 col-lg-3 mt-1">
+        <a href="#!" class="text-center d-flex flex-column card card2">
+          <img src="https://picsum.photos/231" alt="Descrizione immagine" loading="lazy" class="bordo" />
+          <p class="m-1">I più votati</p>
+        </a>
+      </div>
+
+      <div data-aos="flip-left" class="col-12 col-lg-3 mt-1">
+        <a href="#!" class="text-center d-flex flex-column card card3">
+          <img src="https://picsum.photos/232" alt="Descrizione immagine" loading="lazy" class="bordo" />
+          <p class="m-1">I consigliati</p>
+        </a>
+      </div>
+
+      <div data-aos="flip-left" class="col-12 col-lg-3 mt-1">
+        <a href="#!" class="text-center d-flex flex-column card card4">
+          <img src="https://picsum.photos/233" alt="Descrizione immagine" loading="lazy" class="bordo" />
+          <p class="m-1">Da non perdere</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- fine pulsanti -->
+
+  <!-- Carosello Swiper -->
+  <div class="container d-flex align-items-center justify-content-center mt-4 p-1 riquadrocarosello">
+    <div class="row">
+        <div class="col-12 swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"> <img src="https://picsum.photos/200?random=1" alt="picsum1"> </div>
+            <div class="swiper-slide"><img src="https://picsum.photos/200?random=2" alt="picsum2"></div>
+            <div class="swiper-slide"><img src="https://picsum.photos/200?random=3" alt="picsum3"></div>
+            <div class="swiper-slide"><img src="https://picsum.photos/200?random=4" alt="picsum4"></div>
+            <div class="swiper-slide"><img src="https://picsum.photos/200?random=5" alt="picsum5"></div>
+            <div class="swiper-slide"><img src="https://picsum.photos/200?random=6" alt="picsum6"></div>
+            <div class="swiper-slide"><img src="https://picsum.photos/200?random=7" alt="picsum7"></div>
+            <div class="swiper-slide"><img src="https://picsum.photos/200?random=8" alt="picsum8"></div>
+            <div class="swiper-slide"><img src="https://picsum.photos/200?random=9" alt="picsum9"></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+
+
+      
+    </div>
+  </div>
+
+
+
+
+  <!-- Fine Carosello Swiper -->
+
+  <!-- Inizio Immagine in Parallasse -->
+  <div class="parallasse m-2">
+  </div>
+
+  <!-- Fine Immagine in Parallasse -->
+
+  <!-- inizio pannello bottoni -->
+  <div class="container mt-3 sfondosubmenu mb-3">
+    <div class="row" data-aos="flip-left">
+      <div class="col-4">
+        <h2 class="enfasi text-center">utenti registrati</h2>
+        <p class="fs-2 text-center" id="utereg">0</p>
+      </div>
+      <div class="col-4">
+        <h2 class="enfasi text-center">prodotti venduti oggi</h2>
+        <p class="fs-2 text-center" id="oggvend">0</p>
+      </div>
+      <div class="col-4">
+        <h2 class="enfasi text-center">recensioni positive</h2>
+        <p class="fs-2 text-center" id="recpos">0</p>
+      </div>
+    </div>
+  </div>
+  <!-- fine pannello bottoni -->
+
+  <!-- inizio footer -->
+  <footer id="fondo" class="text-center text-lg-start sfondofooter text-muted">
+    <section class="d-flex justify-content-center justify-content-lg-between p-2 opaco">
+      <div class="d-none d-lg-block">
+        <span>Rimani connesso con i nostri social:</span>
+      </div>
+      <div>
+        <a href="#!" class="me-4 text-reset"><i class="bi bi-facebook"></i></a>
+        <a href="#!" class="me-4 text-reset"><i class="bi bi-twitter-x"></i></a>
+        <a href="#!" class="me-4 text-reset"><i class="bi bi-google"></i></a>
+        <a href="#!" class="me-4 text-reset"><i class="bi bi-instagram"></i></a>
+      </div>
+    </section>
+    <section>
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Presto</h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Excepturi modi perferendis nemo eveniet ipsam quod ratione
+              voluptatibus nam. Ullam facilis perferendis nostrum voluptatibus
+              quo iste, nesciunt tempora sapiente accusantium alias?
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Prodotti</h6>
+            <p><a href="#!" class="text-reset">Acquisti veloci</a></p>
+            <p><a href="#!" class="text-reset">Lista ordini</a></p>
+            <p><a href="#!" class="text-reset">Faq</a></p>
+            <p><a href="#!" class="text-reset">Resi</a></p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Link utili</h6>
+            <p><a href="#!" class="text-reset">Prezzario</a></p>
+            <p><a href="#!" class="text-reset">Impostazioni</a></p>
+            <p><a href="#!" class="text-reset">Ordini</a></p>
+            <p><a href="#!" class="text-reset">Aiuto</a></p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Contatti</h6>
+            <p>Calabria Italy</p>
+            <p>presto@presto.com</p>
+            <p>+ 39 234 567 88</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="d-flex align-items-center justify-content-center opaco">
+      <a class="text-reset fw-bold p-2" href="#!">
+        © 2025 Copyright: Presto</a>
+    </div>
+  </footer>
+
+  <!-- fine footer -->
+
+  <!-- JS BOOTSTRAP -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!-- JS AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    setTimeout(() => {
+      AOS.init();
+    }, 300);
+  </script>
+  <!-- JS -->
+  <!-- JS scroll -->
+  <script src="../js/scriptscroll.js"></script>
+  <!-- JS conteggio index -->
+  <script src="../js/conteggioindex.js"></script>
+  <!-- JS cambio style + dark mode -->
+  <script src="/resources/js/cambiostile.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="/resources/js/swiper.js"></script>
+</body>
+<!-- struttura di riferimento:
+https://themewagon.github.io/FoodMart/ -->
+
+</html>
